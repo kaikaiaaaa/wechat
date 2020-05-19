@@ -1,0 +1,76 @@
+<!-- scroll-view -->
+<view>
+	<scroll-view class="backgroud-scroll" scroll-x>
+		<view class="nav">
+			<navigator url="" bindtap="">国际新闻</navigator>
+			<navigator url="">国内新闻</navigator>
+			<navigator url="">社会新闻</navigator>
+			<navigator url="">娱乐新闻</navigator>
+			<navigator url="">IT新闻</navigator>
+			<navigator url="">不知道啥新闻</navigator>
+		</view>
+	</scroll-view>
+</view>
+<!-- swiper的运用 -->
+<view>
+	<swiper autoplay bindchange="changeCurrent" interval="3000" duration="300" indicator-dots>
+		<swiper-item>
+			<navigator url="/pages/icon/icon">
+				<image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2454448529,2549366342&fm=26&gp=0.jpg"></image>
+			</navigator>
+		</swiper-item>
+		<swiper-item>
+			<image src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=1264022725,979403939&fm=26&gp=0.jpg"></image>
+		</swiper-item>
+	</swiper>
+</view>
+<!-- 新闻列表 -->
+<swiper>
+	<swiper-item>
+		<view class="view-con">
+			<image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=17430261,1428849504&fm=26&gp=0.jpg" class="img"></image>
+			<view class="title">
+				<view>
+					微信课程滑块学习
+				</view>
+				<text class="fnt-text">xxxxxxx</text>
+			</view>
+		</view>
+	</swiper-item>
+  <swiper-item>
+		<view class="view-con">
+			<image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=17430261,1428849504&fm=26&gp=0.jpg" class="img"></image>
+			<view class="title">
+				<view>
+					微信课程滑块学习
+				</view>
+				<text class="fnt-text">xxxxxxx</text>
+			</view>
+		</view>
+	</swiper-item>
+</swiper>
+
+<!-- scroll-view -->
+<scroll-view scroll-x>
+	<view class="nav" style="height:300rpx">
+  <view class="view-con">
+			<image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=17430261,1428849504&fm=26&gp=0.jpg" class="img"></image>
+			<view class="title">
+				<view>
+					微信课程滑块学习
+				</view>
+				<text class="fnt-text">xxxxxxx</text>
+			</view>
+		</view>
+     <view class="view-con">
+			<image src="https://dss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=17430261,1428849504&fm=26&gp=0.jpg" class="img"></image>
+			<view class="title">
+				<view>
+					微信课程滑块学习
+				</view>
+				<text class="fnt-text">xxxxxxx</text>
+			</view>
+		</view>
+    </view>
+</scroll-view>
+	

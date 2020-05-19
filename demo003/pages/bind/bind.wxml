@@ -1,0 +1,10 @@
+<text>name:{{ studentName }}</text>
+<view>name:{{ studentName}}</view>
+<view>age:{{ age }}</view>
+<view>sex:{{ sex }}</view>
+<view class="{{ flag ? 'color-red' : 'color-green' }}">
+sex:{{ sex }}
+</view>
+<view>
+{{ stuCS[0].name }} + {{stuCS[1].name}}
+</view>

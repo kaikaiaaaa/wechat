@@ -1,0 +1,23 @@
+/* pages/audio2/audio2.wxss */
+.audioPause , .audioplay{
+  width: 250rpx;
+  height: 250rpx;
+  left: 250rpx;
+  top: 12px;
+  position: relative;
+  background-color: red;
+
+}
+.audiostopimg{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+
+}
+.audiostopplay{
+  width: 100rpx;
+  height: 100rpx;
+  position: absolute;
+  left: 75rpx;
+  top: 75rpx;
+}

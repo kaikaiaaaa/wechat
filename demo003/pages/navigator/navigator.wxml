@@ -1,0 +1,3 @@
+<!--pages/navigator/navigator.wxml-->
+<navigator target='self' url="/pages/form/form">跳转操作</navigator>
+<navigator target='miniProgram'>小程序间跳转</navigator>

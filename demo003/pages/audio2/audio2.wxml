@@ -1,0 +1,8 @@
+<view class="audioPause" wx:if="{{isPlay == false}}" bindtap="play">
+<image class="audiostopimg" src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=577616053,2222206103&fm=111&gp=0.jpg"></image>
+<image class="audiostopplay" src="https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1743192491,3782981131&fm=111&gp=0.jpg"></image>
+</view>
+<view class="audioplay" wx:if="{{isPlay == true}}" bindtap="stop">
+<image class="audiostopimg" src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=577616053,2222206103&fm=111&gp=0.jpg"></image>
+<image class="audiostopplay" src="https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2439015913,3347694095&fm=111&gp=0.jpg"></image>
+</view>

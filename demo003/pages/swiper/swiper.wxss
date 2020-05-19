@@ -1,0 +1,33 @@
+/* pages/swiper/swiper.wxss */
+swiper-item image{
+  width: 100vw;
+}
+.backgroud-scroll{
+  background: grey;
+}
+.nav{
+  display: flex;
+  height: 50rpx;
+  white-space: nowrap;
+
+}
+.nav navigator{
+  margin: 0 15rpx;
+}
+.view-con{
+  width:100vw;
+  margin-top: 20px;
+  display: flex;
+}
+.img{
+  width: 300rpx;
+  height: 300rpx;
+}
+.title{
+  padding-left: 6rpx;
+  font-family: "微软雅黑";
+  font-size: 39rpx;
+}
+.fnt-text{
+  font-size: 26rpx;
+}

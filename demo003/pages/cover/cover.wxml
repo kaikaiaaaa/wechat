@@ -1,0 +1,10 @@
+cover-view的覆盖在组件上的操作
+<video id="my-video" class="videoScreen" src="https://haokan.baidu.com/v?vid=2382060876770665597&tab=recommend">
+
+<cover-view class="pause" wx:if='{{play}}' bindtap="pause">
+<cover-image class="img" src="https://dss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=577616053,2222206103&fm=111&gp=0.jpg"></cover-image>
+</cover-view>
+<cover-view class="play" wx:else bindtap="play">
+<cover-image class="img" src="https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1743192491,3782981131&fm=111&gp=0.jpg"></cover-image>
+</cover-view>
+</video>

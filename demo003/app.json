@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/navigator/navigator",
+    "pages/personCenter/personCenter",
+    "pages/form/form",
+    "pages/progress/progress",
+    "pages/regtext/regtext",
+    "pages/movableDemo/mo",
+    "pages/cover/cover",
+    "pages/movable/movable",
+    "pages/video/video",
+    "pages/audio2/audio2",
+    "pages/audio/audio",
+    "pages/eventDemo/eventDemo",
+    "pages/event/event",
+    "pages/bind/bind",
+    "pages/flex/flex",
+    "pages/templateDemo/templateDemo",
+    "pages/swiper/swiper",
+    "pages/icon/icon",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/about/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChatt",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/icon_2.png",
+        "selectedIconPath": "/images/icon_1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志页面",
+        "iconPath": "/images/icon_22.png",
+        "selectedIconPath": "/images/icon_11.png"
+      }
+    ]
+  }
+}

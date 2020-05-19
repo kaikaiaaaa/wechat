@@ -1,0 +1,17 @@
+<!-- 引用模板 -->
+<import src = "" />
+
+
+<!-- 模板的定义 -->
+<template name="studentInfo">
+<block wx:for=""></block>
+<view>
+姓名：{{ studentName }}
+
+</view>
+<view>
+年龄：{{ age }}
+</view>
+</template>
+<!-- 模板的调用 -->
+<template is="studentInfo" data="{{ studentName,age }}"></template>

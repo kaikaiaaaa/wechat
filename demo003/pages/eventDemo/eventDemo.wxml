@@ -1,0 +1,28 @@
+<view class="container">
+	<!-- 滚动菜单 -->
+	<view class="search">
+		<scroll-view class="background-scroll" scroll-x>
+			<view class="nav">
+				<block wx:for='{{ navigatorArr }}' wx:key = "item">
+					<navigator url="" class="{{ classArr[index] }}" data-index="{{index}}" bindtap="campusActivity">{{ item }}</navigator>
+				</block>
+			</view>
+		</scroll-view>
+	</view>
+</view>
+
+<view >
+
+<swiper style="height:{{ swiperRPXHeight }}rpx" current="{{ currentTab }}">
+   <swiper-item class="bg-red">
+   <view>111</view>
+   
+   </swiper-item>
+   <swiper-item class="bg-green">22</swiper-item>
+   <swiper-item class="bg-yellow">33</swiper-item>
+
+</swiper>
+
+
+
+</view>

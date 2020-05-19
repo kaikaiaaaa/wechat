@@ -1,0 +1,81 @@
+<form bindsubmit="formSubmit" bindreset="formReset">
+	<view>button</view>
+	<button size="mini" type="primary" plain>按钮</button>
+	<input name="inputName"></input>
+	<button form-type="submit"> submit</button>
+	<button form-type="reset" disabled="{{true}}" loading="{{true}}">reset</button>
+	<view>checkbox</view>
+	<checkbox-group bindchange="checkbind">
+		<checkbox value="101">101</checkbox>
+		<checkbox value="101" checked>102</checkbox>
+	</checkbox-group>
+	<checkbox-group bindchange='checkedchange'>
+		<label wx:for="{{items}}">
+			<checkbox value="{{item.name}}" checked="{{item.checked}}">{{ item.value }}</checkbox>
+		</label>
+	</checkbox-group>
+	<view>editor</view>
+	<editor id="editor" placeholder="this is editor" showImgToolbar showImgSize showImgResize bindstatuschange="onstatuschange"></editor>
+	<view>input</view>
+	<input value="文本" type="text" maxlength="5" focus="{{true}}"></input>
+	<input value="数字" type="number"></input>
+	<input value="身份证" type="idcard"></input>
+	<input value="带小数" type="digit"></input>
+	<input password placeholder="密码" placeholder-style="color:red" disabled bindinput="inputBind" bindfocus="" bindconfirm="confirmbind"></input>
+	<label>
+		<radio></radio>
+		<switch></switch>
+	</label>
+	<view>
+		<radio-group bindchange="radiocchange">
+
+			<view wx:for='{{radioItems}}'>
+				<label for="{{item.name}}">
+					点赞
+				</label>
+				<radio id="{{item.name}}" checked="{{item.checked}}">{{item.value}}</radio>
+			</view>
+		</radio-group>
+	</view>
+	<!-- 滚动选择器 -->
+	<view>picker滚动选择器</view>
+	<picker bindchange="bindPickerChange" mode="selector" value="{{index}}" range="{{country}}">
+		<view>
+			当前选择{{country[index]}}
+		</view>
+</picker>
+		<!-- 多列选择器 -->
+		<view>picker滚动选择器</view>
+		<picker bindchange="bindMultiPickerChange" mode="multiSelector" value="{{multiIndex}}" range="{{country}}">
+			<view>
+				当前选择{{country[index]}}
+			</view>
+		</picker>
+
+
+<!-- slider 滑动选择器-->
+<view>slide滑动选择器</view>
+<view>
+<text>设置step</text>
+<slider step="5" bindchange="sliderChange" show-value></slider>
+</view>
+
+
+<view>switch</view>
+<switch></switch>
+<switch checked></switch>
+
+<view>多行文本框</view>
+<textarea value="ehi is aaa"></textarea>
+
+
+
+
+
+
+
+
+
+
+
+</form>

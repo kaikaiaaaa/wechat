@@ -1,0 +1,8 @@
+<view class="big-view">
+	<view class="small-view"></view>
+  <view class="small-view"></view>
+  <view class="small-view"></view>
+  <view class="small-view"></view>
+  <view class="small-view"></view>
+  <view class="small-view"></view>
+</view>
